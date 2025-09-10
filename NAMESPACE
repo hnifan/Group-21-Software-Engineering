@@ -1,0 +1,6 @@
+#export 导出函数用户在加载包后可直接调用
+export(launchDebugVisualizer)#启动调试界面的主入口函数
+export(addBreakpoint)#添加断点
+export(removeBreakpoint)#移除断点
+export(watchVariable)#监控某个变量的值变化
+export(unwatchVariable)#停止监控某个变量
